@@ -1,0 +1,159 @@
+   79  git commit -am 'uncomment send email func'
+   80  git push
+   87  git pull
+   98  git commit -am 'added ok_code to handle exit code 3'
+   99  git push
+  105  git status
+  106  git commit -am 'added shellpoint check'
+  107  git push
+  108  git commit -am 'fixed check to use correct path'
+  109  git push
+  110  git commit -am 'modified check to split on path'
+  111  git push
+  112  git commit -am 'added rushmore check'
+  113  git push
+  114  git commit -am 'fixed typo when calling rushmore check'
+  115  git push
+  116  git commit -am 'uncommenting function calls'
+  117  git push
+  119  git commit -am 'comment out all but rushmore check'
+  120  git push
+  121  git commit -am 'modify to look at files uploaded 1 day or less'
+  122  git push
+  131  git commit -am 'pipe sort and only show files (no dirs)'
+  132  git push
+  133  git commit -am 'fixed incorrect shp path'
+  134  git push
+  135  git commit -am 'uncomment fay check'
+  136  git push
+  137  git commit -am 'modify fay check to use mtime'
+  138  git push
+  139  git commit -am 'mail only'
+  140  git push
+  141  git commit -am 'add rstrip to handle end of line'
+  142  git push
+  143  git commit -am 'add rstrip to handle end of line'
+  144  git push
+  145  git commit -am 'path and func name fix'
+  146  git push
+  147  git commit -am 'path fix, comment out shp check as it doesn't work'
+  148  git commit -am 'path fix, comment out shp check (not working)'
+  149  git push
+  150  git commit -am 'added mounting and unmounting of sshfs'
+  151  git push
+  152  git commit -am 'trying to fix subprocess'
+  153  git push
+  154  git commit -am 'fixed path'
+  155  git push
+  156  git commit -am 'comment out sh sshfs for jonahfcm'
+  157  git push
+  158  git commit -am 'do NOT unmount sftp-jonahfcm'
+  159  git push
+  189  cd git_repos/redhawk_repos/tinman
+  190  git commit -am 'added back mounting of jonahfcm sftp'
+  191  git push
+  192  git commit -am 'added print statements for testing'
+  193  git push
+  194  git commit -am 'comment out print statements and reactive funs'
+  195  git push
+  197  git commit -am 'add try excepts to catch busted sshfs mounts'
+  198  git purhs
+  199  git push
+  200  git status
+  201  git commit - am 'added return code, i think'
+  203  git commit -am 'added return code i think'
+  204  git push
+  205  git commit -am 'changed tuple to string'
+  206  git push
+  207  git commit -am 'changed tuple to string...again'
+  208  git push
+  209  git commit -am 'return code to string...again'
+  210  git push
+  211  git commit -am 'move unmounting line immediately after notification'
+  212  git push
+  213  git commit -am 'wtf isn't this working'
+  214  git commit -am 'wtf isnt this working'
+  215  git push
+  216  git commit -am 'exit codes for unmount'
+  217  git push
+  218  git commit -am 'fixed mixup in unmounting paths'
+  219  git push
+  220  git commit -am 'some cleanups'
+  221  git push
+  223  git status
+  224  git diff
+  230  cd git_repos/redhawk_repos/tinman
+  232  git commit -am 'added mount funcs and comments'
+  233  git push
+  238  git add utils/svcchecks.py 
+  239  git commit -am 'added svcchecks.py'
+  240  git push
+  283  cd ~/git_repos/redhawk_repos/tinman/utils/
+  308  which git
+  317  git clone git@github.com:bewong/office_hours.git
+  322  git add --all
+  323  git commit -am 'adding sentence to README'
+  324  git push
+  325  git push
+  327  git commit -am 'another sentence'
+  328  git push
+  330  git checkout -b new_folder
+  331  git commit --all
+  333  git status
+  337  git push
+  339  git push --set-upstream origin new_folder
+  341  git add lpthw
+  345  git add --all
+  346  git commit -am 'added folder'
+  347  git push
+  352  cd ~/git_repos/redhawk_repos/tinman
+  377  cd ~/git_repos/redhawk_repos/tinman/utils/
+  380  git commit -am 'forgot to set text=False in get_filepaths'
+  381  git puths
+  382  git push
+  383  git commit -am 'oops forgot patterns arg'
+  384  git push
+  427  cd ~/git_repos/redhawk_repos/tinman
+  446  git commit -am 'comment out local paths'
+  447  git push
+  449  git commit -am 'added pick_filepaths to main'
+  450  git push
+  475  cd ~/git_repos/redhawk_repos/tinman
+  497  git commit -am 'added pandas calculation and slack message'
+  498  git push
+  501  cd git_repos/redhawk_repos/tinman
+  502  git commit -am 'cleaned up vars for use on canary'
+  503  git push
+  505  git commit -am 'added ghetto print'
+  506  git push
+  508  git commit -am 'more print goofiness'
+  509  git push
+  511  git commit -am 'fixed too permissive shellpoint pattern'
+  512  git push
+  539  git pull
+  540  git checkout -b 'dk_feature'
+  543  git checkout master
+  544  git pull
+  546  git pull
+  547  git checkout dk_feature
+  548  git pull
+  553  git pull master dk_feature
+  554  git branch --set-upstream-to=origin/master dk_feature
+  555  git pull
+  556  git status
+  561  git commit -am 'a new py file'
+  562  git add lpthw/dk_file.py 
+  563  git commit -am 'a new py file'
+  564  git push
+  565  git push origin dk_feature
+  566  history | grep git
+  567  history | grep git > git_examples.txt
+  569  cat git_examples.txt 
+  570  git add git_examples.txt 
+  571  git commit -am 'history of git commands'
+  572  git push
+  573  git push origin HEAD:master
+  574  git pull
+  575  git checkout master
+  576  git pull
+  578  history | grep git > git_examples.txt
